@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
- var isNumber = function (s) {
+var isNumber = function (s) {
     s = s.trim().split('');
     const len = s.length;
     let point = false;
